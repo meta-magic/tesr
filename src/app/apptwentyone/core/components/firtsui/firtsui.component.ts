@@ -5,21 +5,21 @@
  */
 import {Component, OnInit} from '@angular/core';
 import { Router } from '@angular/router';
-import { Xczdxzv } from './../../models/xczdxzv.model'
+import { Firtsui } from './../../models/firtsui.model'
 @Component(
 {
-	selector: 'xczdxzv',
-	templateUrl: 'xczdxzv.component.html'
+	selector: 'firtsui',
+	templateUrl: 'firtsui.component.html'
 })
-export class XczdxzvComponent implements OnInit
+export class FirtsuiComponent implements OnInit
 {
 	
-	xczdxzv: Xczdxzv;
+	firtsui: Firtsui;
 	
 	
 	constructor( private router: Router)
 	{
-		this.xczdxzv = new Xczdxzv();
+		this.firtsui = new Firtsui();
 		
 	}
 	ngOnInit()
